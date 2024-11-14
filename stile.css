@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8dadc;
+}
+
+.header1{
+    background-image: url(images/bmw\,\ ferrari\ e\ laambo\ original.jpg) ;
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.titulo1{
+    color: white;
+    text-shadow: 4px 4px 4px rgb(3, 1, 1);
+    text-align: center;
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+.titulo1 p{
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.header1 nav ul{
+    margin: 20px 80px 0 0;
+    text-align: right;
+}
+
+.header1 nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.header1 nav a{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 8px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    /* position: fixed; */
+    
+}
+
+.header1 nav a:hover{
+    background-color: rgb(255, 0, 0, 0.9);
+
+}
+
+main{
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+section {
+    padding-top: 15px;
+    padding-bottom: 32px;
+}
+
+section p {
+    font-size: 18px;
+    padding: 10px;
+    text-align: justify;
+}
+
+article{
+    margin: 32px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+
+article h2{
+    background-color: silver;
+    padding: 10px;
+    border-bottom: 5px solid rgb(58, 9, 9);
+    text-align: center;
+}
+
+.btn{
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(20, 3, 3);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn a{
+    padding: 90px;
+    background-color: red;
+}
+
+.btn a:hover{
+    background-color: blue;
+}
+
+
+
+footer{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
